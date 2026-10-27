@@ -38,6 +38,32 @@ The code is on GitHub at [github.com/wppoland/plogins-enquire](https://github.co
 * Settings live under WooCommerce > Product Enquiry.
 * The small CSS and JS load only on product pages. The plugin declares WooCommerce HPOS and Cart &amp; Checkout Blocks compatibility.
 
+== Demando Pro ==
+
+Demando Pro is a separate paid plugin that extends Demando.
+
+Included in Demando:
+
+* Ask a question button
+* Accessible dialog
+* Email delivery
+* One-click reply
+* Inline success and error
+
+Demando Pro adds:
+
+* Enquiry log
+* Automatic reply
+* File attachments
+* Recipient routing
+* HTML templates
+
+The free edition is not a trial and its features stay available without a time limit.
+
+* **Demando Pro** - [plogins.com/plogins-enquire-pro/](https://plogins.com/plogins-enquire-pro/)
+* **Compare editions and pricing** - [plogins.com/plogins-enquire-pro/pricing/](https://plogins.com/plogins-enquire-pro/pricing/)
+* **PRO documentation** - [plogins.com/plogins-enquire-pro/docs/](https://plogins.com/plogins-enquire-pro/docs/)
+
 == Installation ==
 
 1. Upload the plugin to `/wp-content/plugins/demando`, or install via Plugins > Add New.
