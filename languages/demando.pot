@@ -21,7 +21,7 @@ msgstr ""
 
 #. Plugin URI of the plugin
 #: demando.php
-msgid "https://plogins.com/plogins-enquire/"
+msgid "https://plogins.com/demando/"
 msgstr ""
 
 #. Description of the plugin

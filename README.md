@@ -4,4 +4,4 @@
 - **Documentation:** https://plogins.com/enquire/docs/
 - **Author:** [WPPoland.com](https://wppoland.com)
 - **WordPress.org contributor:** motylanogha
-- **Source:** https://github.com/wppoland/enquire
+- **Source:** https://github.com/wppoland/demando

@@ -5,7 +5,7 @@ Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
 Requires Plugins: woocommerce
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,14 +17,14 @@ Demando adds an "Ask a question" button to your WooCommerce single product pages
 
 Nothing is stored in your database. Each enquiry is sent by email, and the shopper's address is used as the Reply-To header so you can answer straight from your inbox.
 
-The code is on GitHub at [github.com/wppoland/plogins-enquire](https://github.com/wppoland/plogins-enquire) if you want to read it, report a bug, or send a patch.
+The code is on GitHub at [github.com/wppoland/demando](https://github.com/wppoland/demando) if you want to read it, report a bug, or send a patch.
 
 = Documentation and links =
 
-* **Documentation**: [plogins.com/plogins-enquire/docs/](https://plogins.com/plogins-enquire/docs/)
-* **Plugin page**: [plogins.com/plogins-enquire/](https://plogins.com/plogins-enquire/)
-* **Source code**: [github.com/wppoland/plogins-enquire](https://github.com/wppoland/plogins-enquire)
-* **Bug reports and feature requests**: [github.com/wppoland/plogins-enquire/issues](https://github.com/wppoland/plogins-enquire/issues)
+* **Documentation**: [plogins.com/demando/docs/](https://plogins.com/demando/docs/)
+* **Plugin page**: [plogins.com/demando/](https://plogins.com/demando/)
+* **Source code**: [github.com/wppoland/demando](https://github.com/wppoland/demando)
+* **Bug reports and feature requests**: [github.com/wppoland/demando/issues](https://github.com/wppoland/demando/issues)
 
 
 = Features =
@@ -60,9 +60,9 @@ Demando Pro adds:
 
 The free edition is not a trial and its features stay available without a time limit.
 
-* **Demando Pro** - [plogins.com/plogins-enquire-pro/](https://plogins.com/plogins-enquire-pro/)
-* **Compare editions and pricing** - [plogins.com/plogins-enquire-pro/pricing/](https://plogins.com/plogins-enquire-pro/pricing/)
-* **PRO documentation** - [plogins.com/plogins-enquire-pro/docs/](https://plogins.com/plogins-enquire-pro/docs/)
+* **Demando Pro** - [plogins.com/demando-pro/](https://plogins.com/demando-pro/)
+* **Compare editions and pricing** - [plogins.com/demando-pro/pricing/](https://plogins.com/demando-pro/pricing/)
+* **PRO documentation** - [plogins.com/demando-pro/docs/](https://plogins.com/demando-pro/docs/)
 
 == Installation ==
 
@@ -111,6 +111,9 @@ Demando does not connect to any external service. Form submissions are sent to y
 Demando is fully translatable and ships the `demando.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.1.3 =
+* Links point at the new plogins.com address and the renamed GitHub repository.
 
 = 1.1.2 =
 * The upgrade notice's "Coming soon" and "Get notified" labels are English source strings for every language; Polish sites used to get their own Polish source text, which translators in other languages then saw untranslated.
