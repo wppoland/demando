@@ -4,14 +4,14 @@
  * scripts/gen-pro-upsell.mjs. The admin upsell renders this; curate the
  * feature list to fit this plugin's settings screen (do not invent features).
  *
- * @package plogins-enquire-pro
+ * @package demando-pro
  */
 
 defined('ABSPATH') || exit;
 
 return [
     'name'       => 'Demando Pro',
-    'url'        => 'https://plogins.com/plogins-enquire-pro/pricing/',
+    'url'        => 'https://plogins.com/demando-pro/pricing/',
     'sellable'   => true,
     'price_from' => 29,
     'currency'   => 'EUR',
