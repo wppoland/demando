@@ -3,7 +3,7 @@
  * Plugin Name:       Demando - Product Enquiry for WooCommerce
  * Plugin URI:        https://plogins.com/demando/
  * Description:        Add an Ask a Question form to products that emails the store owner.
- * Version:           1.1.3
+ * Version:           1.1.4
  * Requires at least: 6.5
  * Requires PHP:      8.1
  * Requires Plugins:  woocommerce
@@ -25,7 +25,7 @@ namespace Enquire;
 
 defined('ABSPATH') || exit;
 
-const VERSION     = '1.1.3';
+const VERSION     = '1.1.4';
 const PLUGIN_FILE = __FILE__;
 
 define('ENQUIRE_DIR', plugin_dir_path(__FILE__));
