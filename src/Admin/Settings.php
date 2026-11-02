@@ -208,6 +208,36 @@ final class Settings implements HasHooks
                     </table>
                 </div>
 
+                <div class="enquire-admin__section">
+                    <h2><?php esc_html_e('Ecosystem integrations', 'demando'); ?></h2>
+                    <table class="form-table" role="presentation">
+                        <tbody>
+                            <tr>
+                                <th scope="row">
+                                    <?php esc_html_e('Quotlet (Request a Quote)', 'demando'); ?>
+                                </th>
+                                <td>
+                                    <?php if (class_exists('\\Estimate\\Plugin')) : ?>
+                                        <p class="description" style="color:#007017;font-weight:600;">
+                                            <?php esc_html_e('Quotlet is active. Customers can request formal quotes for made-to-order or B2B items alongside product questions.', 'demando'); ?>
+                                        </p>
+                                    <?php else : ?>
+                                        <p class="description">
+                                            <?php
+                                            printf(
+                                                /* translators: %s: partner plugin name, linked to its search on the Add Plugins screen. */
+                                                esc_html__('Install %s to let customers request a formal price quote instead of purchasing directly.', 'demando'),
+                                                '<a href="' . esc_url(admin_url('plugin-install.php?s=' . rawurlencode('Quotlet - Request a Quote for WooCommerce') . '&tab=search&type=term')) . '">' . esc_html('Quotlet - Request a Quote for WooCommerce') . '</a>'
+                                            );
+                                            ?>
+                                        </p>
+                                    <?php endif; ?>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
                 <?php submit_button(); ?>
             </form>
 
