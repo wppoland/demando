@@ -40,5 +40,9 @@ return [
             'en' => ['title' => 'HTML templates', 'desc' => 'Branded HTML emails for the store owner and shopper with accent colour and optional logo.'],
             'pl' => ['title' => 'Szablony HTML', 'desc' => 'Brandowane e-maile HTML dla właściciela sklepu i kupującego z kolorem akcentu i opcjonalnym logo.'],
         ],
+        [
+            'en' => ['title' => 'Enquiry topics', 'desc' => 'Up to 10 enquiry buttons under add to cart, each with its own email subject, recipient and copy; also placed anywhere with [enquire_button topic="key"].'],
+            'pl' => ['title' => 'Tematy zapytań', 'desc' => 'Do 10 przycisków zapytań pod koszykiem, każdy z własnym tematem e-maila, odbiorcą i tekstem; także w dowolnym miejscu przez [enquire_button topic="klucz"].'],
+        ],
     ],
 ];
