@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Enquire - Product Enquiry Form for WooCommerce 0.1.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/demando\n"
-"POT-Creation-Date: 2026-10-05T11:15:18+00:00\n"
+"POT-Creation-Date: 2026-11-18T06:23:54+00:00\n"
 "PO-Revision-Date: 2026-06-18T12:34:55+00:00\n"
 "Last-Translator: motylanogha <szatkowski.mariusz@gmail.com>\n"
 "Language-Team: German <de@li.org>\n"
@@ -30,8 +30,8 @@ msgstr "https://plogins.com/demando/"
 #: demando.php
 msgid "Add an Ask a Question form to products that emails the store owner."
 msgstr ""
-"Füge den Produkten ein Frageformular hinzu, das dem Ladenbesitzer eine E-Mail"
-" sendet."
+"Füge den Produkten ein Frageformular hinzu, das dem Ladenbesitzer eine E-"
+"Mail sendet."
 
 #. Author of the plugin
 #: demando.php
@@ -158,8 +158,8 @@ msgstr "Knopfbeschriftung"
 
 #: src/Admin/Settings.php:170
 msgid ""
-"The wording shoppers click to open the enquiry form, e.g. “Ask a question” or"
-" “Enquire now”."
+"The wording shoppers click to open the enquiry form, e.g. “Ask a question” "
+"or “Enquire now”."
 msgstr ""
 "Der Wortlaut, den Käufer anklicken, um das Anfrageformular zu öffnen, z.B. "
 "„Stelle eine Frage“ oder „Jetzt anfragen“."
@@ -170,8 +170,9 @@ msgstr "Formularfelder"
 
 #: src/Admin/Settings.php:178
 msgid ""
-"The labels inside the enquiry dialog and which fields a shopper must complete"
-" before they can send. Clear any label to restore its packaged default."
+"The labels inside the enquiry dialog and which fields a shopper must "
+"complete before they can send. Clear any label to restore its packaged "
+"default."
 msgstr ""
 "Die Beschriftungen im Anfragedialog und welche Felder ein Käufer ausfüllen "
 "muss, bevor er senden kann. Lösche alle Beschriftungen, um die gepackte "
@@ -208,8 +209,8 @@ msgid ""
 "Sits above the email input. This address becomes the Reply-To, so you can "
 "answer the shopper directly."
 msgstr ""
-"Befindet sich über dem E-Mail-Eingang. Diese Adresse wird zur Antwortadresse,"
-" sodass du dem Käufer direkt antworten können."
+"Befindet sich über dem E-Mail-Eingang. Diese Adresse wird zur "
+"Antwortadresse, sodass du dem Käufer direkt antworten können."
 
 #: src/Admin/Settings.php:186
 msgid "Message field label"
@@ -220,8 +221,8 @@ msgid ""
 "Sits above the message box, prompt the kind of question you want, e.g. “Your "
 "question”."
 msgstr ""
-"Befindet sich über dem Meldungsfeld und stellt die Art der gewünschten Frage,"
-" z. B. „deine Frage“."
+"Befindet sich über dem Meldungsfeld und stellt die Art der gewünschten "
+"Frage, z. B. „deine Frage“."
 
 #: src/Admin/Settings.php:187
 msgid "Submit button label"
@@ -245,9 +246,9 @@ msgstr "E-Mail erforderlich"
 
 #: src/Admin/Settings.php:189
 msgid ""
-"Shoppers cannot send without an email. A valid format is always enforced when"
-" an address is entered, even if this is off, but leaving it off means you may"
-" not be able to reply."
+"Shoppers cannot send without an email. A valid format is always enforced "
+"when an address is entered, even if this is off, but leaving it off means "
+"you may not be able to reply."
 msgstr ""
 "Käufer können nicht ohne eine E-Mail senden. Bei der Eingabe einer Adresse "
 "wird immer ein gültiges Format erzwungen, auch wenn dies deaktiviert ist. "
@@ -305,12 +306,39 @@ msgstr "E-Mail-Betreff"
 
 #: src/Admin/Settings.php:205
 msgid ""
-"The subject line of the enquiry email you receive. {product} is replaced with"
-" the product name, so enquiries are easy to scan in your inbox."
+"The subject line of the enquiry email you receive. {product} is replaced "
+"with the product name, so enquiries are easy to scan in your inbox."
 msgstr ""
 "Die Betreffzeile der Anfrage-E-Mail, die Du erhältst. {product} wird durch "
 "den Produktnamen ersetzt, sodass Anfragen einfach in deinem Posteingang "
 "gescannt werden können."
+
+#: src/Admin/Settings.php:212
+msgid "Ecosystem integrations"
+msgstr "Integrationen mit anderen Plugins"
+
+#: src/Admin/Settings.php:217
+msgid "Quotlet (Request a Quote)"
+msgstr "Quotlet (Angebotsanfrage)"
+
+#: src/Admin/Settings.php:222
+msgid ""
+"Quotlet is active. Customers can request formal quotes for made-to-order or "
+"B2B items alongside product questions."
+msgstr ""
+"Quotlet ist aktiv. Neben Produktfragen können Kunden formelle Angebote für "
+"Sonderanfertigungen oder B2B-Artikel anfordern."
+
+#. translators: %s: partner plugin name, linked to its search on the Add
+#. Plugins screen.
+#: src/Admin/Settings.php:229
+#, php-format
+msgid ""
+"Install %s to let customers request a formal price quote instead of "
+"purchasing directly."
+msgstr ""
+"Installiere %s, damit Kunden ein formelles Preisangebot anfordern können, "
+"statt direkt zu kaufen."
 
 #: src/Service/EnquiryService.php:115
 msgid "Your session expired. Please reload the page and try again."
@@ -400,8 +428,8 @@ msgstr "Danke! Deine Frage wurde gesendet. Wir melden uns in Kürze bei dir."
 msgid "Sorry, something went wrong. Please try again."
 msgstr "Entschuldigung, etwas ist schief gelaufen. Bitte versuche es erneut."
 
-#. translators: {product} is a placeholder replaced with the product name, keep
-#. it as is.
+#. translators: {product} is a placeholder replaced with the product name,
+#. keep it as is.
 #: src/Service/Texts.php:45
 msgid "Product enquiry: {product}"
 msgstr "Produktanfrage: {product}"
