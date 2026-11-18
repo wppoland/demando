@@ -57,6 +57,7 @@ Demando Pro adds:
 * File attachments
 * Recipient routing
 * HTML templates
+* Enquiry topics
 
 The free edition is not a trial and its features stay available without a time limit.
 
