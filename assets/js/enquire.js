@@ -31,6 +31,25 @@
 		statusEl.hidden = !message;
 	}
 
+	// The first field a shopper can type in: skips hidden inputs, disabled
+	// controls, the inert honeypot (tabindex -1) and anything not rendered.
+	function firstFocusableField(form) {
+		var fields = form.querySelectorAll('input, select, textarea');
+		for (var i = 0; i < fields.length; i++) {
+			var field = fields[i];
+			if (
+				field.type !== 'hidden' &&
+				!field.disabled &&
+				field.tabIndex >= 0 &&
+				!field.closest('[inert]') &&
+				field.getClientRects().length > 0
+			) {
+				return field;
+			}
+		}
+		return null;
+	}
+
 	function initWidget(widget) {
 		var dialog = widget.querySelector('[data-enquire-dialog]');
 		var openBtn = widget.querySelector('[data-enquire-open]');
@@ -61,7 +80,7 @@
 			} else {
 				dialog.setAttribute('open', '');
 			}
-			var firstField = form.querySelector('input:not([type="hidden"]), textarea');
+			var firstField = firstFocusableField(form);
 			if (firstField) {
 				firstField.focus();
 			}
