@@ -100,8 +100,9 @@ Yes. This plugin is compatible with WordPress Multisite. Network activate it or 
 
 == Screenshots ==
 
-1. The "Ask a question" form on a single product page.
-2. The WooCommerce > Product Enquiry settings page.
+1. Ask a question form opened from a product page.
+2. Settings under WooCommerce > Product Enquiry: recipient, button and form labels.
+3. The enquiry form on a phone.
 
 == External Services ==
 
