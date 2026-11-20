@@ -5,7 +5,7 @@ Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 8.1
 Requires Plugins: woocommerce
-Stable tag: 1.1.5
+Stable tag: 1.1.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -113,6 +113,9 @@ Demando does not connect to any external service. Form submissions are sent to y
 Demando is fully translatable and ships the `demando.pot` template. Translations are delivered by WordPress.org language packs from translate.wordpress.org, which is where Polish, German and Spanish are being contributed; the package itself carries no compiled translation files.
 
 == Changelog ==
+
+= 1.1.6 =
+* Fixed: an enquiry can only be sent about a product the visitor can see. Draft, private and password-protected products are refused like a missing product.
 
 = 1.1.5 =
 * Fixed: opening the enquiry form put keyboard focus on the Close button instead of the first field. The hidden spam-trap field counted as the first field; focus now goes to the first field a shopper can type in.

@@ -131,7 +131,11 @@ final class EnquiryService implements HasHooks
 
         $productId = isset($_POST['product_id']) ? absint(wp_unslash($_POST['product_id'])) : 0;
         $product   = $productId > 0 ? wc_get_product($productId) : null;
-        if (! $product instanceof \WC_Product) {
+        // The id is client input: a draft, private or password-protected product
+        // (or a variation under one) answers exactly like a missing one.
+        if (! $product instanceof \WC_Product
+            || ! $this->canView($product->get_id())
+            || ($product->get_parent_id() > 0 && ! $this->canView($product->get_parent_id()))) {
             wp_send_json_error([
                 'message' => (string) ($settings['error_message'] ?? ''),
             ], 400);
@@ -349,6 +353,12 @@ final class EnquiryService implements HasHooks
             : '';
 
         return $ip !== '' ? $ip : 'unknown';
+    }
+
+    private function canView(int $postId): bool
+    {
+        return ('publish' === get_post_status($postId) && ! post_password_required($postId))
+            || current_user_can('read_post', $postId);
     }
 
     private function currentProduct(): ?\WC_Product
