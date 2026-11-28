@@ -124,7 +124,7 @@ final class Settings implements HasHooks
                 </span>
                 <div class="enquire-admin__intro-text">
                     <h2><?php esc_html_e('Let shoppers ask about a product before they buy', 'demando'); ?></h2>
-                    <p><?php esc_html_e('Enquire adds an “Ask a question” button to your single product pages. Clicking it opens an accessible form (name, email, message) that emails you the question with the product details, no data is stored.', 'demando'); ?></p>
+                    <p><?php esc_html_e('Demando adds an "Ask a question" button to your single product pages. Clicking it opens an accessible form (name, email, message) that emails you the question with the product details, no data is stored.', 'demando'); ?></p>
                 </div>
             </div>
 
